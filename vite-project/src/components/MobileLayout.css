@@ -1,0 +1,108 @@
+.mobileContainer {
+    width: 100%;
+   
+    height: 100vh;
+    margin: auto;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+
+ .main-wrapper {
+  margin-left: 25px;
+  margin-right: 25px;
+ }
+  
+  .header {
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+  }
+  .search-section {
+    height: 40px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .wheather-details-section {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+    gap:25px;
+
+  }
+
+  .cloud-section {
+    height: 122px;
+    margin-top: 20px;
+  }
+  
+  .additional-info-section {
+    /* height: 200px; */
+    margin-top: 50px;
+    margin-bottom: 50px;;
+    /* border: 1px solid #ddd; */
+  }
+  .info-content {
+    display: flex;
+  }
+
+  .info-content .pre {
+    width: 33.3%;
+  }
+
+  .info-content .pre p {
+    font-size: 12px;
+    color: #c8c8c8;
+    margin-top: 15px;
+  }
+  .info-content .pre h6 {
+    color:#003339;
+    margin-top: 5px;
+    font-family: Abhaya Libre;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.00042187501094304025px;
+    text-align: left;
+
+  }
+
+  hr {
+    border: 1px solid #F1F1F3
+  }
+  .footer{
+    width:100%;
+    height: 260px;
+    margin-top: 40px;
+  }
+  .footer-temp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 13px;
+  }
+  .footer-temp p {
+    font-family: Abhaya Libre;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.0005062500131316483px;
+    text-align: left;
+    color:#003339;
+
+
+  }
+  .temp-graph{
+    height: 100%;
+  }
+  

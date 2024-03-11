@@ -1,0 +1,64 @@
+.country{
+    display: flex;
+}
+
+.rounded-image {
+    border-radius: 20px 20px 20px 20px; 
+    margin-top: -32px; 
+    height: 140px;
+    width: 160px;
+    display: flex;
+    margin-left: -6px;
+  }
+
+  
+
+  .country-details h1 {
+    font-family: Abhaya Libre;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0.25px;
+    text-align: left;
+
+  }
+  .country-details p {
+    font-family: Abhaya Libre;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.00042187501094304025px;
+    text-align: left;
+    color: #96969A;
+    margin-top: 8px;
+  }
+  
+  .wheater-state {
+    color: blue;
+    font-size: 16px;;
+  }
+
+  
+  .btn-on-image{
+    position: relative;
+    top: 94px;
+    left: 72px;
+    background-color:#FF2D55;
+    padding:8px;
+    border-radius: 8px;
+    font-family: Abhaya Libre;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.11999999731779099px;
+    width: 53px;
+    text-align: center;
+    height: 32px;
+    color:white;
+}
+
+.icon-cloud{
+    display: flex;
+    line-height: 20px;
+    margin-top: 8px;
+}

@@ -1,0 +1,11 @@
+
+
+.headerRight {
+    /* Styles for right side of header */
+    display: flex;
+  }
+  
+.icon {
+    margin-left: 10px;
+    /* Styles for each icon */
+  }

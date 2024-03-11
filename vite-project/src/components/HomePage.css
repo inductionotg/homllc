@@ -1,0 +1,83 @@
+.mobileContainer-1 {
+    width: 100%;
+    height: 100vh;
+    background-position: top;
+    
+  }
+  .header {
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+  }
+ 
+  .search-section-home {
+    display: flex;
+    height: 40px; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+  .main-wrapper-home {
+    margin-left: 25px;
+    margin-right: 25px;
+   }
+.btn-live{
+    background-color:#FF2D55;
+    padding:8px;
+    border-radius: 8px;
+    font-family: Abhaya Libre;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.11999999731779099px;
+    text-align: left;
+    color:white;
+
+}
+.map-indicator{
+    position: relative;
+    width: 187px;
+    height: 40px;
+    top: 140px;
+    left: 20px;
+    background: #0000000D;
+}
+.map-indicator-marker{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.map-indicator-current{
+    font-family: Abhaya Libre;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.11999999731779099px;
+    text-align: left;
+    color:#FFFFFF;
+}
+
+.city-indicator {
+    width: 263px;
+    height: 120px;
+    position: relative;
+    top: 157px;
+    left: 1px;
+    font-family: Abhaya Libre;
+    font-size: 45px;
+    
+    line-height: 60px;
+    letter-spacing: 0.44999998807907104px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    color:#FFFFFF
+    
+
+}
+
