@@ -3,7 +3,7 @@ import { useConversion } from './mobile-context';
 import './cloud.css'; 
 
 function Cloud(){
-     
+     const {weatherInfoArray} = useConversion()
       return (
         <div className='forcast'>
             {weatherInfoArray?.map((item)=>{

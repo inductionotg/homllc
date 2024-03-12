@@ -9,6 +9,7 @@ import { Menu,Search } from 'react-feather';
 import { useConversion } from './mobile-context';
 import AdditionalPage from './AdditionalPage';
 import AreaChart from './AreaChart';
+import DesktopModeMessage from './DesktopModeMessage';
 const MobileLayout = () => {
   const {loading,weatherData, weatherInfoArray }= useConversion()
   const result = weatherInfoArray?.map((item)=>{

@@ -2,9 +2,11 @@ import './Topbar.css';
 import {Wifi} from 'react-feather'
 import {Battery} from 'react-feather'
 import {BatteryCharging} from 'react-feather'
+import DesktopModeMessage from './DesktopModeMessage';
 const Topbar = ({color}) => {
     return (
       <>
+      
         <div className="headerLeft">
             <span className="icon" style={{color:color}}>9:41</span>
         </div>
@@ -13,6 +15,7 @@ const Topbar = ({color}) => {
           <span className="icon"><Battery color={color}/></span>
           <span className="icon"><BatteryCharging color={color}/></span>
         </div>
+        
       </>
     );
   };
