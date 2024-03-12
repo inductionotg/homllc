@@ -42,7 +42,10 @@ function HomePage() {
                 <span><X size={32} color="white" /></span>
             </div>
             <div>
+              <Link to='/mobile'>
                 <span><button className='btn-live'>LIVE</button></span>
+              </Link>
+                
             </div>
 
         </div>
