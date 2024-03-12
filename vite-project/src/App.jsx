@@ -17,7 +17,7 @@ function App() {
         <DesktopModeMessage/>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/mobile-layout" element={<MobileLayout />} />
+          <Route path="/mobile" element={<MobileLayout />} />
         </Routes>
       </div>
     </Router>
